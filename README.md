@@ -11,9 +11,6 @@
   <img src="https://komarev.com/ghpvc/?username=taha588&label=Vues%20du%20profil&color=58A6FF&style=flat-square" alt="views" />
   <a href="https://www.linkedin.com/in/kachmar-mohamed-taha-30b8502a1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" /></a>
   <a href="mailto:mohamedtahakchmar@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="email" /></a>
-  <!-- Portfolio : badge retiré tant qu'il n'y a pas d'URL. Pour le remettre :
-  <a href="https://URL-DU-PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=todoist&logoColor=white" alt="portfolio" /></a>
-  -->
 </p>
 
 </div>
@@ -75,6 +72,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
@@ -100,7 +98,6 @@
 
 ###### 🎯 En cours d'apprentissage
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
@@ -111,20 +108,17 @@
 <!-- ===================== PROJETS ===================== -->
 ## 📂 &nbsp;Projets
 
-> *Mes projets de Master (pipelines Big Data, machine learning, visualisation) sont en cours de publication ici.*
+### 🔹 [Quantification INT8 d'un ResNet-18 — CIFAR-10](https://github.com/taha588/optimisation/tree/main/quantization)
+Compression d'un réseau convolutif par **quantization statique post-entraînement** (mode FX graph, calibration sur 1 000 images) : taille du modèle divisée par **3,96** — 42,70 Mo → 10,78 Mo, soit **−74,8 % de mémoire** — pour **3,79 points** d'accuracy perdus (84,65 % → 80,86 %). Comparaison PTQ statique vs dynamique, rapport et graphiques inclus.
+**Stack :** `Python` · `PyTorch` · `torch.ao.quantization` *(oneDNN)* · `torchvision` · `NumPy` · `Matplotlib`
 
-<!-- TODO — remplacer la ligne ci-dessus par les vrais projets, sur ce modèle :
+### 🔹 [Requêtes géospatiales dans MongoDB — index `2dsphere`](https://github.com/taha588/projets-data-enginier/tree/main/projet-20-geospatial-mongodb)
+Scénario de livraison (type Glovo) qui met en œuvre les opérateurs `$near`, `$geoWithin`, `$geoIntersects` et l'agrégation `$geoNear` sur des données **GeoJSON**. Benchmark **avec vs sans index** : passage d'un `COLLSCAN` à un parcours d'index géospatial, le tout exploré sur une carte interactive.
+**Stack :** `Python` · `MongoDB` · `PyMongo` · `Flask` · `Docker Compose` · `Leaflet`
 
-### 🔹 [Nom du projet](https://github.com/taha588/nom-du-repo)
-Une ou deux phrases : le problème traité, les données utilisées, le résultat obtenu.
-**Stack :** `Python` · `Spark` · `scikit-learn` · `Docker`
-
-### 🔹 [Autre projet](https://github.com/taha588/autre-repo)
-…
-**Stack :** `Kafka` · `MongoDB` · `Streamlit`
-
-Conseil : 3 projets bien décrits valent mieux que 10 repos vides.
--->
+### 🔹 [Assistant Handicap Global](https://github.com/taha588/assistante) &nbsp;·&nbsp; [🌐 démo en ligne](https://assistante.vercel.app)
+Chatbot multilingue qui renseigne les personnes en situation de handicap sur les **programmes, droits et ressources** disponibles dans leur pays, avec un agent contraint à répondre dans la langue de l'utilisateur.
+**Stack :** `TypeScript` · `React 19` · `Vite` · `API Gemini` *(@google/genai)* · `Vercel`
 
 <!-- ===================== FOCUS ===================== -->
 ## 🚀 &nbsp;Axes de travail actuels

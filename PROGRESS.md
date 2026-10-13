@@ -1,17 +1,21 @@
 ## État actuel
-- Fait : README refondu — placeholders username/email corrigés, images cassées retirées,
-  sections Formation + Projets ajoutées, Stack enrichie (ML, MongoDB, Hive, BI, « en apprentissage »).
-  T1.3 terminée : badge + lien LinkedIn réels (`kachmar-mohamed-taha-30b8502a1`), aux 2 endroits.
+- Fait : T1 complet (placeholders, images cassées, LinkedIn réel, bloc Portfolio supprimé).
+  T2.1 (Formation + Stack) et T2.2 (3 projets réels) terminées.
+  PyTorch déplacé de « en cours d'apprentissage » vers « Data Science & ML » (réellement pratiqué).
+  Toutes les images/badges du README vérifiés : 11 URLs + badges shields → HTTP 200.
 - En cours : —
-- Problème : informations manquantes de l'utilisateur (projets réels, modules, certifications, portfolio).
-- Prochaine étape : T2.2 — remplir la section Projets dès que l'utilisateur fournit 2 à 4 projets.
+- Problème : il reste à connaître les modules du Master (T2.3), les certifications (T2.4)
+  et les technos de la Stack réellement pratiquées (T3.1).
+- Prochaine étape : T2.3/T2.4 dès que l'utilisateur fournit la liste des modules et certifications.
 
 ## Décisions
-- Username GitHub supposé : `taha588` (lu dans la config git) ; email : `mohamedtahakchmar@gmail.com`.
-- Lien LinkedIn nettoyé : paramètres de suivi (`utm_source`, `utm_content`, `utm_medium`) retirés,
-  seul l'identifiant public est conservé.
-- Aucun projet, module ou certification inventé : les blocs manquants restent en commentaire HTML
-  (invisibles sur le profil) avec un modèle à remplir.
-- Décor réduit : suppression du snake (workflow inexistant), des trophies et du graphe d'activité ;
-  streak migré de `herokuapp.com` (mort) vers `streak-stats.demolab.com`.
+- Username GitHub : `taha588` ; email : `mohamedtahakchmar@gmail.com`.
+- Lien LinkedIn nettoyé (paramètres `utm_*` retirés) : `kachmar-mohamed-taha-30b8502a1`.
+- Pas de badge Portfolio : bloc commenté supprimé définitivement (choix de l'utilisateur).
+- Projets retenus, décrits uniquement à partir du contenu réel des dépôts (aucune invention) :
+  1. `optimisation/quantization` — PTQ INT8 ResNet-18 / CIFAR-10 (chiffres lus dans RESULTATS_QUANTIZATION.md)
+  2. `projets-data-enginier/projet-20-geospatial-mongodb` — index 2dsphere, Flask + Leaflet
+  3. `assistante` — Assistant Handicap Global (React 19 + Gemini), démo Vercel vérifiée (HTTP 200)
+- Écartés : les 2 forks (`fsbm-devops-demo`, `Wav2Lip`) et le dépôt profil `taha588`.
+  Le projet « Sanabil » n'est pas publié sur GitHub et reste exclu, comme demandé.
 - Langue du profil : français. Langue des échanges : darija.
