@@ -1,0 +1,18 @@
+# TASKS — Profil GitHub (README)
+
+## T1 : Nettoyage technique
+- [x] T1.1 : Remplacer les placeholders username/email — Critère : `grep -c VOTRE_ README.md` = 0 ✅
+- [x] T1.2 : Retirer images cassées (snake sans workflow, trophies, streak heroku mort) — Critère : `grep -cE 'snake|trophy|herokuapp'` = 0 ✅
+- [ ] T1.3 : Remplacer `TODO-LINKEDIN` par le vrai identifiant LinkedIn (2 endroits) — Critère : `grep -c TODO-LINKEDIN README.md` = 0
+- [ ] T1.4 : Portfolio — décommenter le badge si une URL existe, sinon supprimer le bloc commenté
+
+## T2 : Contenu Data Science
+- [x] T2.1 : Section **Formation** + Stack enrichie (ML, NoSQL, BI, « en apprentissage ») ✅
+- [ ] T2.2 : Section **Projets** — remplacer le modèle commenté par 2 à 4 vrais projets
+      Critère : chaque projet a un lien repo, 1–2 phrases de description et sa stack
+- [ ] T2.3 : Modules du Master (bloc commenté dans « Formation ») — Critère : liste réelle affichée
+- [ ] T2.4 : Certifications (bloc commenté) — Critère : liste réelle, ou bloc supprimé si aucune
+
+## T3 : Vérification
+- [ ] T3.1 : Relire la Stack et retirer toute techno non réellement pratiquée
+- [ ] T3.2 : Ouvrir le profil sur github.com/taha588 et vérifier qu'aucune image n'est cassée
