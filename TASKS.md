@@ -3,7 +3,7 @@
 ## T1 : Nettoyage technique
 - [x] T1.1 : Remplacer les placeholders username/email — Critère : `grep -c VOTRE_ README.md` = 0 ✅
 - [x] T1.2 : Retirer images cassées (snake sans workflow, trophies, streak heroku mort) — Critère : `grep -cE 'snake|trophy|herokuapp'` = 0 ✅
-- [ ] T1.3 : Remplacer `TODO-LINKEDIN` par le vrai identifiant LinkedIn (2 endroits) — Critère : `grep -c TODO-LINKEDIN README.md` = 0
+- [x] T1.3 : LinkedIn réel inséré (`kachmar-mohamed-taha-30b8502a1`), 2 endroits — Critère : `grep -c TODO-LINKEDIN README.md` = 0 ✅
 - [ ] T1.4 : Portfolio — décommenter le badge si une URL existe, sinon supprimer le bloc commenté
 
 ## T2 : Contenu Data Science

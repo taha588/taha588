@@ -9,8 +9,7 @@
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=taha588&label=Vues%20du%20profil&color=58A6FF&style=flat-square" alt="views" />
-  <!-- TODO : remplacer TODO-LINKEDIN par l'identifiant du profil LinkedIn -->
-  <a href="https://www.linkedin.com/in/TODO-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+  <a href="https://www.linkedin.com/in/kachmar-mohamed-taha-30b8502a1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" /></a>
   <a href="mailto:mohamedtahakchmar@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="email" /></a>
   <!-- Portfolio : badge retiré tant qu'il n'y a pas d'URL. Pour le remettre :
   <a href="https://URL-DU-PORTFOLIO"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=flat-square&logo=todoist&logoColor=white" alt="portfolio" /></a>
@@ -164,8 +163,7 @@ Conseil : 3 projets bien décrits valent mieux que 10 repos vides.
 
 <div align="center">
 
-<!-- TODO : remplacer TODO-LINKEDIN par l'identifiant du profil LinkedIn -->
-<a href="https://www.linkedin.com/in/TODO-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+<a href="https://www.linkedin.com/in/kachmar-mohamed-taha-30b8502a1/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
 <a href="mailto:mohamedtahakchmar@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
 
 <br><br>
