@@ -14,4 +14,5 @@
 
 ## T3 : Vérification
 - [ ] T3.1 : Relire la Stack et retirer toute techno non réellement pratiquée
-- [ ] T3.2 : Ouvrir le profil sur github.com/taha588 et vérifier qu'aucune image n'est cassée
+- [x] T3.2 : Rendu réel vérifié sur github.com (clair + sombre) : 35/35 images OK, 0 débordement ✅
+- [x] T3.3 : Refonte visuelle — mise en page 2 colonnes, cartes adaptées au thème clair/sombre ✅

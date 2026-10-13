@@ -1,21 +1,25 @@
 ## État actuel
-- Fait : T1 complet (placeholders, images cassées, LinkedIn réel, bloc Portfolio supprimé).
-  T2.1 (Formation + Stack) et T2.2 (3 projets réels) terminées.
-  PyTorch déplacé de « en cours d'apprentissage » vers « Data Science & ML » (réellement pratiqué).
-  Toutes les images/badges du README vérifiés : 11 URLs + badges shields → HTTP 200.
+- Fait : T1 complet, T2.1, T2.2, puis refonte visuelle (T3.3) et vérification du rendu réel (T3.2).
+- Mise en page : « À propos » et « Engagement » en 2 colonnes (table HTML), projets avec citation
+  « Résultat », cartes de statistiques adaptées au thème via <picture> + prefers-color-scheme.
+- Bugs réels trouvés et corrigés pendant la vérification :
+  1. Bannière cassée depuis le début — capsule-render injectait un « & » brut dans le SVG (XML invalide) ;
+     corrigé en encodant %26amp%3B dans le paramètre desc.
+  2. Compteur de vues komarev.com refusé par le proxy camo de GitHub (« Cannot proxy the given URL ») ;
+     remplacé par hits.sh, testé à travers camo.
+  3. Cartes github-readme-stats parfois vides (animation d opacité) : disable_animations=true.
+  4. height="165em" invalide en HTML : remplacé par height="170" pour aligner les 2 cartes.
 - En cours : —
-- Problème : il reste à connaître les modules du Master (T2.3), les certifications (T2.4)
-  et les technos de la Stack réellement pratiquées (T3.1).
-- Prochaine étape : T2.3/T2.4 dès que l'utilisateur fournit la liste des modules et certifications.
+- Problème : il reste les modules du Master (T2.3), les certifications (T2.4) et la relecture
+  de la Stack (T3.1) — en attente d informations de l utilisateur.
+- Prochaine étape : merger la PR #1 pour que le profil soit visible, puis T2.3/T2.4/T3.1.
 
 ## Décisions
 - Username GitHub : `taha588` ; email : `mohamedtahakchmar@gmail.com`.
 - Lien LinkedIn nettoyé (paramètres `utm_*` retirés) : `kachmar-mohamed-taha-30b8502a1`.
-- Pas de badge Portfolio : bloc commenté supprimé définitivement (choix de l'utilisateur).
-- Projets retenus, décrits uniquement à partir du contenu réel des dépôts (aucune invention) :
-  1. `optimisation/quantization` — PTQ INT8 ResNet-18 / CIFAR-10 (chiffres lus dans RESULTATS_QUANTIZATION.md)
-  2. `projets-data-enginier/projet-20-geospatial-mongodb` — index 2dsphere, Flask + Leaflet
-  3. `assistante` — Assistant Handicap Global (React 19 + Gemini), démo Vercel vérifiée (HTTP 200)
-- Écartés : les 2 forks (`fsbm-devops-demo`, `Wav2Lip`) et le dépôt profil `taha588`.
-  Le projet « Sanabil » n'est pas publié sur GitHub et reste exclu, comme demandé.
+- Pas de badge Portfolio (choix de l utilisateur).
+- Projets décrits uniquement à partir du contenu réel des dépôts, aucune invention.
+  Forks et projet « Sanabil » (non publié) exclus.
+- Vérification : le rendu local via l API markdown (mode gfm) force des retours à la ligne et ne
+  reflète pas un README ; la référence est la page du dépôt sur github.com.
 - Langue du profil : français. Langue des échanges : darija.
