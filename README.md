@@ -12,7 +12,7 @@
   &nbsp;
   <a href="mailto:mohamedtahakchmar@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=taha588&label=Vues%20du%20profil&color=58A6FF&style=flat-square" alt="Vues du profil" />
+  <img src="https://hits.sh/github.com/taha588.svg?style=flat-square&label=Vues%20du%20profil&color=58a6ff&labelColor=30363d" alt="Vues du profil" />
 </p>
 
 </div>
