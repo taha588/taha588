@@ -34,8 +34,8 @@
 <td valign="top" width="44%">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=taha588&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=420" />
-  <img src="https://github-readme-stats.vercel.app/api?username=taha588&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&card_width=420" alt="Statistiques GitHub de taha588" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=taha588&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&card_width=420&disable_animations=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=taha588&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&card_width=420&disable_animations=true" alt="Statistiques GitHub de taha588" />
 </picture>
 
 </td>
@@ -178,12 +178,12 @@ Chatbot multilingue qui renseigne les personnes en situation de handicap sur les
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Langages les plus utilisés" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&disable_animations=true" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=default&hide_border=true&langs_count=8&disable_animations=true" alt="Langages les plus utilisés" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=taha588&theme=tokyonight&hide_border=true" />
-  <img height="165em" src="https://streak-stats.demolab.com/?user=taha588&theme=default&hide_border=true" alt="Série de contributions" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=taha588&theme=tokyonight&hide_border=true&disable_animations=true" />
+  <img height="165em" src="https://streak-stats.demolab.com/?user=taha588&theme=default&hide_border=true&disable_animations=true" alt="Série de contributions" />
 </picture>
 
 </div>
