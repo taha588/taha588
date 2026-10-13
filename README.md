@@ -179,11 +179,11 @@ Chatbot multilingue qui renseigne les personnes en situation de handicap sur les
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&disable_animations=true" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=default&hide_border=true&langs_count=8&disable_animations=true" alt="Langages les plus utilisés" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taha588&layout=compact&theme=default&hide_border=true&langs_count=8&disable_animations=true" alt="Langages les plus utilisés" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=taha588&theme=tokyonight&hide_border=true&disable_animations=true" />
-  <img height="165em" src="https://streak-stats.demolab.com/?user=taha588&theme=default&hide_border=true&disable_animations=true" alt="Série de contributions" />
+  <img height="170" src="https://streak-stats.demolab.com/?user=taha588&theme=default&hide_border=true&disable_animations=true" alt="Série de contributions" />
 </picture>
 
 </div>
